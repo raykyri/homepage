@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/raykyri
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://raymondzhong.com
+  * I am raykyri (https://keybase.io/raykyri) on keybase.
+  * I have a public key ASDq21-bqDF7juP-UwDhwCCC6DSvAmOH-pZlbBuR31OApAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120eadb5f9ba8317b8ee3fe5300e1c02082e834af026387fa96656c1b91df5380a40a",
+      "host": "keybase.io",
+      "kid": "0120eadb5f9ba8317b8ee3fe5300e1c02082e834af026387fa96656c1b91df5380a40a",
+      "uid": "498ed12d7319ac4eec7eebe0e407d919",
+      "username": "raykyri"
+    },
+    "merkle_root": {
+      "ctime": 1532251175,
+      "hash": "0bfd97cafbad833b7e141eaed7ff69a097d39d2637e2f217f12fb6b284d41199c95fe41b09edb7dd417f4005a1df27a633cd6974bec08777b05c0c5b3bacdfc6",
+      "hash_meta": "81d13d7dba4e1e6b2aae72ebd3ea71e47b4f50cff1ee58c23af3b0f41d520b7a",
+      "seqno": 3310647
+    },
+    "service": {
+      "entropy": "KBqM4/Fb0cg4cWlLiJUjmZ7f",
+      "hostname": "raymondzhong.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1532251217,
+  "expire_in": 504576000,
+  "prev": "1eb0193b851110a634fdd8917eb44ddbbb092cadfae19a2b526ada0b5eb1682d",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg6ttfm6gxe47j/lMA4cAggug0rwJjh/qWZWwbkd9TgKQKp3BheWxvYWTESpcCDcQgHrAZO4UREKY0/diRfrRN27sJLK364ZorUmraC16xaC3EIGxeZONRwG3yM3Gz/lpJyRgW+M6SpyUCQo1dvgP8TBKVAgHCo3NpZ8RAfFdiylUTyS8n+F1gq98s/n0YXZJEUu/gSjsvv+ZhtIGCiPDexVlEFMY/Qa4c37WBRmMCvgphpzydCxx0v9wFBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBKOgJLsEaY3sjA1N9TvpAI2imEiPBCL5xAwdspZt0AGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/raykyri
+
+==================================================================

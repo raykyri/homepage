@@ -41,7 +41,7 @@ blockquote {
 /* layout */
 .container {
     padding: 60px 80px;
-    max-width: 760px;
+    max-width: 680px;
 }
 .content {
     float: left;

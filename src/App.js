@@ -2,20 +2,20 @@ import "./App.css"
 
 function App() {
   return (
-    <div className="App mx-10 my-12 max-w-lg">
+    <div className="App mx-10 my-12 max-w-sm">
       <p className="mb-2">
         <span className="font-bold text-xl">raymond</span>
       </p>
       <p>
         i’m a researcher and software developer, interested in the future of
-        decentralized and social technology.
+        decentralized social technology.
       </p>
       <p>
         currently, i'm working on{" "}
         <a target="_blank" href="https://canvas.xyz">
           canvas
         </a>
-        , a peer-to-peer computing platform. canvas lets you easily write
+        , a peer-to-peer computing platform that lets you easily write
         decentralized apps without a blockchain.
       </p>
       <p>
@@ -23,11 +23,10 @@ function App() {
         <a target="_blank" href="https://commonwealth.im">
           commonwealth
         </a>
-        , one of the first widely used crypto governance tools, and led product
-        at a predictive analytics startup.
+        , one of the first widely used crypto governance tools.
       </p>
       <p>
-        i'm also fortunate to collaborate with internet friends from groups like{" "}
+        i'm also fortunate to collaborate with friends from groups like{" "}
         <a target="_blank" href="https://verses.xyz">
           verses
         </a>{" "}

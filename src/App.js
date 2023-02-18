@@ -7,31 +7,31 @@ function App() {
         <span className="font-bold text-xl">raymond</span>
       </p>
       <p>
-        i’m a researcher and software developer, interested in the future of
-        decentralized social technology.
-      </p>
-      <p>
-        currently, i'm working on{" "}
-        <a target="_blank" href="https://canvas.xyz">
+        hi! i’m a researcher and software engineer, currently working on{" "}
+        <a target="_blank" href="https://canvas.xyz" noopener noreferrer>
           canvas
         </a>
-        , a peer-to-peer computing platform that lets you easily write
-        decentralized apps without a blockchain.
+        , a peer-to-peer computing platform without a blockchain.
       </p>
       <p>
         previously i was a co-founder at{" "}
-        <a target="_blank" href="https://commonwealth.im">
+        <a target="_blank" href="https://commonwealth.im" noopener noreferrer>
           commonwealth
         </a>
-        , one of the first widely used crypto governance tools.
+        , a protocol governance tool used across several ecosystems.
       </p>
       <p>
-        i'm also fortunate to collaborate with friends from groups like{" "}
-        <a target="_blank" href="https://verses.xyz">
+        i've also worked on community projects with friends from organizations
+        like{" "}
+        <a target="_blank" href="https://verses.xyz" noopener noreferrer>
           verses
+        </a>
+        ,{" "}
+        <a target="_blank" href="https://0xparc.org" noopener noreferrer>
+          0xparc
         </a>{" "}
         and{" "}
-        <a target="_blank" href="https://joininteract.com">
+        <a target="_blank" href="https://joininteract.com" noopener noreferrer>
           interact
         </a>
         .

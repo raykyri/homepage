@@ -11,30 +11,14 @@ function App() {
         <a target="_blank" href="https://canvas.xyz" noopener noreferrer>
           canvas
         </a>
-        , a peer-to-peer computing platform without a blockchain.
+        , a peer-to-peer computing platform
       </p>
       <p>
         previously i was a co-founder at{" "}
         <a target="_blank" href="https://commonwealth.im" noopener noreferrer>
           commonwealth
         </a>
-        , a protocol governance tool used across several ecosystems.
-      </p>
-      <p>
-        i've also worked on community projects with friends from organizations
-        like{" "}
-        <a target="_blank" href="https://verses.xyz" noopener noreferrer>
-          verses
-        </a>
-        ,{" "}
-        <a target="_blank" href="https://0xparc.org" noopener noreferrer>
-          0xparc
-        </a>{" "}
-        and{" "}
-        <a target="_blank" href="https://joininteract.com" noopener noreferrer>
-          interact
-        </a>
-        .
+        , a protocol governance tool
       </p>
     </div>
   )

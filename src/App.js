@@ -20,13 +20,11 @@ function App() {
           Commonwealth
         </a>
         , where I designed and built most of the first version of the product.
-        Commonwealth has raised $20m+ and is used by many crypto protocols,
-        including major DEXes, DeFi protocols, and smart contract chains.
       </p>
       <p>
         Before that, I was part of the founding team at a predictive analytics
         startup, and worked in engineering at Addepar, AngelList, Medium, and
-        Facebook during school.
+        Facebook.
       </p>
     </div>
   )

@@ -6,25 +6,21 @@ function App() {
       <p className="mb-2">
         <span className="font-bold text-xl">raymond</span>
       </p>
+      <p>Hi!</p>
+      <p>I’m a researcher and software engineer.</p>
       <p>
-        Hi! I’m a researcher and software engineer working on{" "}
-        <a target="_blank" href="https://canvas.xyz" noopener noreferrer>
+        I work on{" "}
+        <a target="_blank" href="https://canvas.xyz" rel="noreferrer">
           Canvas
         </a>
-        , a peer-to-peer database and new architecture for decentralized
-        applications.
+        , a peer-to-peer technology company.
       </p>
       <p>
         In the past, I was a co-founder at{" "}
-        <a target="_blank" href="https://commonwealth.im" noopener noreferrer>
+        <a target="_blank" href="https://commonwealth.im" rel="noreferrer">
           Commonwealth
         </a>
-        , where I designed and built most of the first version of the product.
-      </p>
-      <p>
-        Before that, I was part of the founding team at a predictive analytics
-        startup, and worked in engineering at Addepar, AngelList, Medium, and
-        Facebook.
+        , building governance tools for crypto networks.
       </p>
     </div>
   )

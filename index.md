@@ -7,11 +7,11 @@ Some of my current projects:
 - HHAI (part of [Canvas](https://canvas.xyz))
 - Input: Documents, backed by GitHub
 
-From 2018-2021, I was a cofounder at Commonwealth, an early DAO/governance tool that was used by many of the largest crypto protocols.
+From 2018-2021, I was a cofounder at Commonwealth, an early DAO/governance tool used by many of the largest crypto protocols, and raised $20m+ from top investors. At Commonwealth, I designed and built the product and ran design iterations.
 
 Previously I was at AngelList, Facebook, and Medium, and a founding engineer and head of product at a predictive analytics company.
 
-In several of those roles I worked on matching-marketplace mechanisms and analytics for them.
+In several of those roles I worked on matching-marketplace mechanisms and analytics for small- and large-scale online behavior.
 
 Previous work:
 

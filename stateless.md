@@ -1,6 +1,6 @@
 ## Stateless Software
 
-Input is a document editor I've been working on — it's like if Obsidian were in your browser.
+Input is a document editor I've been working on — it's like if Obsidian were in your browser, or HackMD used GitHub as a backend.
 
 Every file on Input is backed by a Git repo. The URL raykyri.input.md is automatically mapped to the public repo at `raykyri/homepage` [on GitHub](https://github.com/raykyri/homepage), and we fetch and render Markdown files as users visit the site.
 

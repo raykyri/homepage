@@ -59,10 +59,12 @@ There's a model here that should be appealing to enterprises, who intuitively un
 
 ### New models
 
-For individuals, the sell is that stateless software can actually be faster, easier to use, and more customizable than off-the-shelf software. A benevolent dictator can have a higher quality bar than a profit-motivated corporation, especially if they come from a design engineering background.
+Many people have tried to call the future of coding by saying that "software is dead", or that everyone will have personal software that they customize to their heart's content. I find both of those positions to be a bit implausible; and actually think this is a far more likely vision for the democratization of software.
 
-Independent developers building these kinds of tools don't need to close five- and six-figure contracts; they can subsist via sponsorships and subscriptions, serving hundreds of thousands of users using modern tech.
+For individuals, the sell is that stateless software can actually be faster, easier to use, and more customizable than off-the-shelf software. A lot of business software is not very high quality - and people talk about antiquated user interfaces, slowness, and jankiness all the time. People *want* to replace these systems, and the reason they haven't done so is mainly a coordination problem, i.e. most vibe coded software isn't very trustworthy or long-lasting.
 
-It also opens the door to playful, artistic applications that help people develop new kinds of capabilities. If I were working on communal software, malleable software, or decentralized networks today, I'd seriously consider taking this approach.
+Stateless software is a way to work around that problem.
 
-Many people have tried to call the future of coding by saying that "software is dead", or that everyone will have personal software that they customize to their heart's content. I find both of those positions to be a bit implausible; instead, I think this is a far more compelling vision for the democratization of software.
+Independent developers building stateless software don't need to close five- and six-figure contracts; they can subsist via sponsorships and subscriptions, serving hundreds of thousands of users using modern tech.
+
+This might seem far-fetched, but there are already a lot of independent developers building software like this! Some work at big tech companies, while other are full-time independent developers, and they produce interesting applications on Twitter, and at coding meetups, which mostly don't plug into your existing data. If we can reduce the overhead of trying out their software, and allow them to easily let users try them out, then hopefully a meaningful subset of them can grow into tools that people use and love.

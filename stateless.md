@@ -13,15 +13,11 @@ This means a few things:
 - You can use Input with existing tools that connect to GitHub (e.g. Claude Code Web, Cursor Agents, or Obsidian).
 - There's a strict schema for everything that gets stored (in this case Markdown), which works like a protocol.
 
-### The past
-
 Stateless software isn't new. [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications to work this way, without a backend. They cobbled together a patchwork of APIs to give people persistence.
 
 But I've never actually used Google Drive or Dropbox's APIs for serious persistence for third-party services, and I doubt that most people have either. They feel not quite like a home drive, even though they can work like one.
 
-### The future
-
-So why do I think this paradigm could work now? The first reason is that we've gotten used to connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, plus code review tools, test runners, and more.
+Why do I think this paradigm could work now? The first reason is that we've gotten used to connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, plus code review tools, test runners, and more.
 
 As people start using applications like Claude Code for everything, Git repos suddenly start looking a lot more compelling as a system of record.
 

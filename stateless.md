@@ -23,11 +23,11 @@ As people start using applications like Claude Code for everything, Git repos su
 
 The second reason is that stateless software is a compelling progressive enhancement over local-first software. Local-first has gained momentum in the last few years, as people started to look for alternatives to popular online services that have started raising their prices.
 
-But the model itself is limiting. I tried Obsidian and stopped using it because it wasn't helping me publish or get work out into the world... but writing documents in the browser feels like putting down words for other people to read.
-
 ### Beyond local-first
 
-I want a web app! I want to be able to access my words from any computer, and to publish pages easily without having to set up Obsidian Sync or Obsidian Wikis.
+But the local-first model itself is limiting. I tried Obsidian and stopped using it because it wasn't helping me publish or get work out into the world.
+
+And in general, I want a web app! I want to be able to access my words from any computer, and to publish pages easily without having to set up Obsidian Sync or wikis or static site generators.
 
 Using a tool like Input, I don't have to think about that. I just write and it syncs to my personal Git repos. I have separate repos for public and private work, and I can switch quickly between drafts and published work. The tighter feedback loop seems to make my writing better, because the writing feels realistic - more like I'm writing for someone else to read, not editing a "second brain" or "tool for thought".
 

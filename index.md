@@ -9,9 +9,9 @@ Some of my current projects:
 
 From 2018-2021, I was a cofounder at Commonwealth, an early DAO/governance tool, which raised $20m+ and was used by hundreds of protocols including the largest in their categories. I designed and built the product.
 
-Previously I was at AngelList, Facebook, and Medium, and a founding engineer and head of product at a predictive analytics company.
+Previously I was at AngelList, Facebook, and Medium, a founding engineer and head of product at a predictive analytics company.
 
-In several of those roles I worked on matching-marketplace mechanisms and analytics for small- and large-scale online behavior. Before that, I was at Princeton in the Computer Science department and [CITP](https://citp.princeton.edu/).
+In some of those roles I worked on matching-marketplace mechanisms and analytics for small- and large-scale online behavior.
 
 Previous work:
 

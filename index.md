@@ -8,9 +8,10 @@ From 2018-2021, I was a cofounder at Commonwealth, an early DAO/governance tool,
 
 Previously I was at AngelList, Facebook, and Medium, a founding engineer and head of product at a predictive analytics company.
 
-Writing:
+Current projects:
 
 - [[Stateless Software]]: A way to build AI applications with data portability
+- Multi-user AI interfaces
 
 Previous projects:
 

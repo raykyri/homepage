@@ -2,6 +2,8 @@
 
 Input is a document editor — it's like Obsidian in the browser, or HackMD using GitHub as a backend.
 
+You can think of it as an alternative frontend for GitHub, or as a piece of _model software_, that demonstrates AI applications can use GitHub as a data portability backend.
+
 Every file on Input is backed by a Git repo. The URL raykyri.input.md is automatically mapped to the public repo at `raykyri/homepage` [on GitHub](https://github.com/raykyri/homepage). We fetch and render Markdown files as users visit the site.
 
 This means:

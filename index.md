@@ -10,7 +10,7 @@ Previously I was at AngelList, Facebook, and Medium, a founding engineer and hea
 
 Writing:
 
-- [[Stateless Software]]: Applications without backends
+- [[Stateless Software]]: A way to build AI applications with data portability
 
 Previous projects:
 

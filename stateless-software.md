@@ -2,7 +2,7 @@
 
 Input is a document editor — it's like Obsidian or HackMD, with GitHub as a backend.
 
-It's also a demonstration that AI applications can use GitHub for data portability and long-term persistence. Every file on Input is backed by a Git repo. The server is just a caching proxy, and we fetch and render Markdown files from GitHub as users open them.
+It's also a demonstration that AI applications can use GitHub for data portability and long-term persistence. Every file on Input is backed by GitHub. The server is just a caching proxy, and we fetch and render Markdown files using the GitHub Contents API as users open them.
 
 This means:
 

@@ -1,4 +1,4 @@
-## Input: Stateless, Backendless Softwware
+## Input: Stateless, Backendless Software
 
 Input is a document editor — it's like Obsidian in the browser, or HackMD using GitHub as a backend.
 
@@ -15,7 +15,7 @@ This means:
 
 [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications to work without a backend this way. They cobbled together a patchwork of APIs to provide persistence. But I suspect most of us have never actually used Google Drive or Dropbox's APIs along with linked applications. Third-party persistence has never seen serious adoption, for either end users or enterprises.
 
-That seems to be changing now. One reason is we've finallly gotten used to connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, plus code review tools, test runners, and more. As people started using applications like Claude Code for everything, Git repos suddenly start looking a lot more compelling as a system of record.
+That seems to be changing now. One reason is we've finally gotten used to connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, plus code review tools, test runners, and more. As people started using applications like Claude Code for everything, Git repos suddenly start looking a lot more compelling as a system of record.
 
 ### Beyond local-first
 

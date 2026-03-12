@@ -14,7 +14,7 @@ This means:
 
 [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications that worked this way, without a backend. They used a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. But I suspect most of us have never actually used those APIs for serious persistence needs. Outside of a few limited enterprise use cases (e.g. Box, OneDrive), applications have generally been hostile to using third-party APIs for saving data, preferring at best a ["file over app"](https://stephango.com/file-over-app) philosophy of storing data locally.
 
-That seems to be changing now. AI means people are now connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, push, and merge their code to Git.
+That seems to be changing now. AI means people are now connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, merge, and push to Git.
 
 Agents are also changing the costs of creating software. For the first time, it may be possible for an independent developer to build a complex piece of software in days of work, and maintain it without significant resources or effort. That means more freedom to create applications that have no particular business model.
 

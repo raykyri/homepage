@@ -1,35 +1,26 @@
 ## Input: Stateless, Backendless Software
 
-Input is a document editor — it's like Obsidian in the browser, or HackMD using GitHub as a backend.
+Input is a document editor — it's like Obsidian in the browser, or HackMD if it used GitHub as a backend. It's also a demonstration that AI applications can use GitHub for data portability and long-term persistence.
 
-You can think of it as an alternative frontend for GitHub, or as a piece of _model software_, that demonstrates AI applications can use GitHub for data portability and long-term persistence.
+Every file on Input is backed by a Git repo. The server is just a caching proxy, and we fetch and render Markdown files fro GitHub as users open them. This means:
 
-Every file on Input is backed by a Git repo. The URL raykyri.input.md is automatically mapped to the public repo at `raykyri/homepage` [on GitHub](https://github.com/raykyri/homepage). We fetch and render Markdown files as users visit the site.
+- There's no lock-in. The application can be used with any other Markdown-compatible editor.
+- You can easily fork the app, or add your own customizations.
+- Stored content follows well-defined, human-readable schemas.
 
-This means:
+[Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications without a backend, that worked this way. They cobbled together a patchwork of APIs to provide persistence, and let users choose from a menu that included services like Google Drive and Dropbox. But I suspect most of us have never actually used those APIs for serious persistence needs. In general, applications have been hostile to using third-party APIs for persistence, preferring at best a "file over app" philosophy of storing data locally.
 
-- No lock-in.
-- You can easily fork the app, and/or add your own customizations.
-- You can use Input with existing tools that connect to GitHub (e.g. Claude Code Web, Cursor Agents, or Obsidian).
-- All stored content follows pre‑declared schemas, in this case Markdown.
+That seems to be changing now. AI means people are now connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, push, and merge their code to Git.
 
-[Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications to work without a backend this way. They cobbled together a patchwork of APIs to provide persistence. But I suspect most of us have never actually used Google Drive or Dropbox's APIs along with linked applications. Third-party persistence has never seen serious adoption, for either end users or enterprises.
-
-That seems to be changing now. One reason is we've finally gotten used to connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, plus code review tools, test runners, and more. As people started using applications like Claude Code for everything, Git repos suddenly start looking a lot more compelling as a system of record.
-
-### Beyond local-first
-
-You can think of this kind of persistence as a progressive enhancement over local-first software, which has gained momentum in the last few years, as people started looking for alternatives to popular online services.
-
-But the local-first model itself is limiting. In general, I want a web app! I want to be able to access the app from any computer, and to publish easily, without `git push` or running static site generators.
+And agents are changing the business of software. For the first time, it may be possible for an independent developer to build a complex piece of software with near-zero cost or maintenance burden. With so much software, Git might finally be a compelling system of record.
 
 Why haven't people built software this way before?
 
-One reason is it involves a lot of complexity. GitHub's APIs don't give you consistency, which means that naively using the API breaks in surprisingly ways. You might edit a file and find some edits are lost, or that changes don't stick.
+One reason is that it introduces complex concerns around distributed data. GitHub's APIs don't give you consistency, which means that when using the API, you might edit a file and read back an older version. You have to build your own commits if you want to make atomic, multi-file updates. Without conflict resolution strategies, it's easy to lose data, or run into merge conflicts.
 
-You have to deal with rate limits, 409 Conflict errors, and 99th percentile scenarios, e.g. if a million people show up one day when a blog post goes viral. The backing API for a service like GitHub is designed to serve a much smaller number of users, so you have to design aggressive caching policies that kick in when load goes over a certain limit.
+Also, the backing API for a service like GitHub is designed to serve a much smaller number of users, have to design aggressive caching policies that kick in when load goes over a certain limit. It's easy to go over rate limits when using an application aggressively, or in a 99th percentile scenarios, e.g. if a million people show up one day when a blog post goes viral -- exactly when you don't want to fail.
 
-Claude and Codex have made it possible to address many of these issues. Personally, this app has already replaced several tools that I used day-to-day.
+But assistants like Claude and Codex have made it possible to address many of these issues. In this project, I've used them to create a client-side caching layer that works as a local-first data store, so we don't have to hit GitHub on every request. Assistants have also been useful for dealing with more complex Git APIs, and identifying and patching the places where it's not possible to paper over errors. This has made the application smooth enough that I use it basically every day.
 
 ### The future of software
 

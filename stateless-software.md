@@ -28,7 +28,7 @@ But assistants like Claude and Codex have made it possible to address many of th
 
 Before this year, stateless software couldn't compete with walled-garden, siloed software. It didn't make sense to go through the effort of building a complex productivity app, text editor, ticketing system, etc., if a corporate competitor could outspend and outpace you.
 
-Now one designer or engineer can create a complex application in days. What these applications are missing is just a sense of permanence, since most vibe coded software isn't very trustworthy or long-lasting. This is where being open-source and storing data in portable containers like Git repos starts to make sense. Knowing that my data is backed up and will remain readable somewhere else gives me the assurances I need to take it seriously, both as a user and as a contributor. It sets up the right virtuous cycles for contributors to come together around a few trusted codebases.
+Now one designer or engineer can create a complex application in days. What's more valuable today is permanence, since there's more software than ever, and vibe-coded software isn't very trustworthy or long-lasting. This is where being open-source and storing data in portable containers starts to make sense. Knowing that my data will remain accessible to me gives me the assurance I need to take a piece of software seriously, both as a user and as a contributor.
 
 There's plenty of opportunity here. A lot of business software is not very high quality; it's often slow, outdated, or janky. People *want* to replace these systems, and the reason they haven't done so is mainly a matter of finding quality alternatives they can trust.
 

@@ -8,7 +8,9 @@ This means:
 
 - The application has no lock-in. You can easily fork it, run it locally, or add your own customizations.
 - You can use Input with existing tools that connect to GitHub (e.g. Claude Code, Cursor Agents, Obsidian).
-- All stored content follows human-readable schemas, in this case Markdown with front matter and extensions, to support features like sharing.
+- All stored content follows human-readable schemas, in this case Markdown with front matter and extensions, to support features like share links, 1:1 sharing, etc.
+
+### Backendless software
 
 [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications that worked this way, without a backend. They cobbled together a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. But I suspect most of us have never actually used those APIs for serious persistence needs. Outside of a few limited enterprise use cases (e.g. Box, OneDrive), applications have generally been hostile to using third-party APIs for saving data, preferring at best a "file over app" philosophy of storing data locally.
 

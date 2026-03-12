@@ -6,10 +6,10 @@ It's also a demonstration that AI applications can use GitHub for data portabili
 
 This means:
 
-- Applications have no lock-in.
-- You can easily fork the application, run it locally, and/or add your own customizations.
+- The application has no lock-in.
+- You can easily fork it, run it locally, or add your own customizations.
 - You can use Input with existing tools that connect to GitHub (e.g. Claude Code, Cursor Agents, Obsidian).
-- All stored content follows human-readable schemas (Markdown with extensions).
+- All stored content follows human-readable schemas, in this case Markdown with front matter and extensions.
 
 [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications without a backend that worked this way. They cobbled together a patchwork of APIs to provide persistence, letting users choose from services like Google Drive and Dropbox. But I suspect most of us have never actually used those APIs for serious persistence needs. Outside of a few limited enterprise use cases (e.g. Box, OneDrive), applications have been hostile to using third-party APIs for persistence, preferring at best a "file over app" philosophy of storing data locally.
 

@@ -9,9 +9,9 @@ This means:
 - The application has no lock-in.
 - You can easily fork it, run it locally, or add your own customizations.
 - You can use Input with existing tools that connect to GitHub (e.g. Claude Code, Cursor Agents, Obsidian).
-- All stored content follows human-readable schemas, in this case Markdown with front matter and extensions.
+- All stored content follows human-readable schemas, in this case Markdown with front matter and extensions. These extensions are enough to support features like sharing, comments, and wikilinks.
 
-[Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications without a backend that worked this way. They cobbled together a patchwork of APIs to provide persistence, letting users choose from services like Google Drive and Dropbox. But I suspect most of us have never actually used those APIs for serious persistence needs. Outside of a few limited enterprise use cases (e.g. Box, OneDrive), applications have been hostile to using third-party APIs for persistence, preferring at best a "file over app" philosophy of storing data locally.
+[Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications that worked this way, without a backend. They cobbled together a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. But I suspect most of us have never actually used those APIs for serious persistence needs. Outside of a few limited enterprise use cases (e.g. Box, OneDrive), applications have generally been hostile to using third-party APIs for saving data, preferring at best a "file over app" philosophy of storing data locally.
 
 That seems to be changing now. AI means people are now connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, push, and merge their code to Git.
 

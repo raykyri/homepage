@@ -16,7 +16,7 @@ This means:
 
 That seems to be changing now. AI means people are now connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, merge, and push to Git.
 
-Agents are also changing the costs of creating software. For the first time, it may be possible for an independent developer to build a complex piece of software in days of work, and maintain it without significant resources or effort. That means more freedom to create applications that have no particular business model.
+Agents are also changing the costs of creating software. For the first time, it may be possible for an independent developer to build a complex piece of software in days of work, and maintain it without significant resources or effort. That means more freedom to create applications that have no particular business model, that are still highly technically sophisticated.
 
 ### Distributed data
 

@@ -1,6 +1,6 @@
 ## Input: Backendless software with persistence in Git
 
-Input is a document editor — it's like Obsidian in the browser, or HackMD if it used GitHub as a backend.
+Input is a document editor — it's like Obsidian or HackMD, with GitHub as a backend.
 
 It's also a demonstration that AI applications can use GitHub for data portability and long-term persistence. Every file on Input is backed by a Git repo. The server is just a caching proxy, and we fetch and render Markdown files from GitHub as users open them.
 
@@ -15,15 +15,15 @@ This means:
 
 That seems to be changing now. AI means people are now connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, push, and merge their code to Git.
 
-Agents are also changing the business of software. For the first time, it may be possible for an independent developer to build a complex piece of software with near-zero cost or maintenance burden. With so much software, Git might finally be evolving into a compelling system of record.
+Agents are also changing the business of software. For the first time, it may be possible for an independent developer to build a complex piece of software with near-zero cost or maintenance burden. That means less pressure to capture value, and commensurately less pressure to create siloed applications.
 
-Why haven't people built software this way before?
+### Distributed data
 
-One reason is that it introduces complex concerns around distributed data. GitHub APIs don't give you consistency, which means that it's easy to edit a file and read back an older version. If you want to make atomic, multi-file updates, you have to use a more complex API that involves working with Git data structures. Either way, if multiple people edit the same files, it's easy to run into merge conflicts.
+One reason that people haven't built software this way before is the complexity of distributing data in different places. GitHub APIs don't give you consistency, which means that it's easy to edit a file and read back an older version. If you want to make atomic, multi-file updates, you have to use a more complex API that involves working with Git data structures. Either way, if multiple people edit the same files, it's easy to run into merge conflicts.
 
 The backing API for a service like GitHub is also designed to serve a much smaller number of users than what you'd need for a public-facing application. That means it's easy to go over rate limits when using an application aggressively, or if you encounter a 99th-percentile scenario, e.g. if a million people show up one day when a blog post goes viral.
 
-But assistants like Claude and Codex have made it possible to address many of these issues. In this project, I've used them to create a client-side, local-first data store, to avoid hitting GitHub on every request. Assistants have also made it easy to use complex Git APIs, and identify and patch the places where errors surface to users.
+But assistants like Claude and Codex have made it possible to address many of these issues. In this project, I've used them to create a client-side, local-first data store, to avoid hitting GitHub on every request. Assistants have also made it easy to use complex Git APIs, and identify and patch the places where errors surface to users. Working with distributed data is easier than ever before.
 
 ### The future of software
 

@@ -8,7 +8,7 @@ This means:
 
 - The application has no lock-in. You can easily fork it, run it locally, or add your own customizations.
 - You can use Input with existing tools that connect to GitHub (e.g. Claude Code, Cursor Agents, Obsidian).
-- All stored content follows human-readable schemas, in this case Markdown with front matter and extensions, to support features like share links, 1:1 sharing, etc.
+- All stored content follows human-readable schemas, in this case Markdown with front matter and extensions, to support features like share links, private document permissioning, and comments.
 
 ### Backendless software
 

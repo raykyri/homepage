@@ -1,8 +1,10 @@
 ## Input: Backendless software with persistence in Git
 
-Input is a document editor — it's like Obsidian in the browser, or HackMD if it used GitHub as a backend. It's also a demonstration that AI applications can use GitHub for data portability and long-term persistence.
+Input is a document editor — it's like Obsidian in the browser, or HackMD if it used GitHub as a backend.
 
-Every file on Input is backed by a Git repo. The server is just a caching proxy, and we fetch and render Markdown files from GitHub, as users open them. This means:
+It's also a demonstration that AI applications can use GitHub for data portability and long-term persistence. Every file on Input is backed by a Git repo. The server is just a caching proxy, and we fetch and render Markdown files from GitHub as users open them.
+
+This means:
 
 - Applications have no lock-in.
 - You can easily fork the application, run it locally, and/or add your own customizations.

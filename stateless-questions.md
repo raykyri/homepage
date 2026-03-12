@@ -9,6 +9,6 @@
 - How do you create directories or nested documents?
   - As directories in Git. Empty directories are not supported.
 - How do you store comments?
-  - As a .comments.md file, stateless-questions.comments.md. Comment identities cannot be verified without creating an index of GitHub users and assigning Keybase-style public keys to them.
+  - As .[username].comments.md files.
 - Rich text editing?
   - Yes please

@@ -17,9 +17,9 @@ Agents are also changing the business of software. For the first time, it may be
 
 Why haven't people built software this way before?
 
-One reason is that it introduces complex concerns around distributed data. GitHub APIs don't give you consistency, which means that it's easy to edit a file and read back an older version. If you want to make atomic, multi-file updates, you have to use a more complex API, that involves working with Git data structures. Either way, if multiple people edit the same files, it's easy to run into merge conflicts.
+One reason is that it introduces complex concerns around distributed data. GitHub APIs don't give you consistency, which means that it's easy to edit a file and read back an older version. If you want to make atomic, multi-file updates, you have to use a more complex API that involves working with Git data structures. Either way, if multiple people edit the same files, it's easy to run into merge conflicts.
 
-The backing API for a service like GitHub is also designed to serve a much smaller number of users than what you'd need for a public-facing application. That means it's easy to go over rate limits when using an application aggressively, or if you encounter a 99th percentile scenarios, e.g. if a million people show up one day when a blog post goes viral.
+The backing API for a service like GitHub is also designed to serve a much smaller number of users than what you'd need for a public-facing application. That means it's easy to go over rate limits when using an application aggressively, or if you encounter a 99th-percentile scenario, e.g. if a million people show up one day when a blog post goes viral.
 
 But assistants like Claude and Codex have made it possible to address many of these issues. In this project, I've used them to create a client-side, local-first data store, to avoid hitting GitHub on every request. Assistants have also made it easy to use complex Git APIs, and identify and patch the places where errors surface to users.
 

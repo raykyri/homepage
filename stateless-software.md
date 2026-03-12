@@ -1,4 +1,4 @@
-## Input: Backendless software with persistence in Git
+## Input: Backendless applications with Git persistence
 
 Input is a document editor — it's like Obsidian or HackMD, with GitHub as a backend.
 

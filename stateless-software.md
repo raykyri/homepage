@@ -6,17 +6,17 @@ It's also a demonstration that applications in the AI era can use GitHub for dat
 
 This means:
 
-- The application has no lock-in. You can easily fork it, run it locally, or add your own customizations.
-- You can use Input with existing tools that connect to GitHub (e.g. Claude Code, Cursor Agents, Obsidian).
-- All stored content follows human-readable schemas, in this case Markdown with front matter and extensions.
+- No lock-in: You can easily fork the application, run it locally, or apply custom modifications.
+- Interoperability: Input works seamlessly with any tool connected to GitHub, such as Claude Code, Cursor Agents, or Obsidian.
+- Human-readable data: All content follows open schemas, specifically Markdown with front matter and standard extensions.
 
 ### Backendless software
 
-[Draw.io](https://draw.io) and [tldraw](https://tldraw.io) were some of the first popular applications that worked this way, without a backend. They used a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. But I suspect most of us have never actually used those APIs for serious persistence needs. Outside of a few limited enterprise use cases (e.g. Box, OneDrive), applications have generally been hostile to using third-party APIs for saving data, preferring at best a ["file over app"](https://stephango.com/file-over-app) philosophy of storing data locally.
+Applications like [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) pioneered this approach, using a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. Historically, however, these integrations remained niche. Most software has been inherently "hostile" to third-party APIs for primary storage, preferring a ["file over app"](https://stephango.com/file-over-app) philosophy that keeps data local.
 
-That seems to be changing now. AI means people are now connecting a long list of applications to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, merge, and push to Git.
+This dynamic seems to be shifting now. AI means people are now connecting an ever-growing list of tools to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, merge, and push to Git.
 
-Agents are also changing the costs of creating software. For the first time, it may be possible for an independent developer to build a complex piece of software in days of work, and maintain it without significant resources or effort. That means more freedom to create applications that have no particular business model, that are still highly technically sophisticated.
+Simultaneously, AI agents are collapsing the cost of software development. An independent developer can now build and maintain a sophisticated application in a matter of days. This means we may have more freedom than ever to create high-quality software that doesn't require a traditional business model.
 
 ### Distributed data
 

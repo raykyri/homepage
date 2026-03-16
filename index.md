@@ -1,7 +1,5 @@
 Hi, I'm Raymond!
 
-I'm interested in emerging technologies, institutions, and the social forms around them.
-
 I was a cofounder at Commonwealth, an early DAO/governance tool, which raised $20m+ and was used by hundreds of protocols. I designed and built the product.
 
 Previously I was at AngelList, Facebook, and Medium, a founding engineer and head of product at a predictive analytics company.

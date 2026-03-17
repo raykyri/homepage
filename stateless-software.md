@@ -1,3 +1,9 @@
+---
+fonts:
+  - headings: Literata
+css: h2 { font-size: 28px; font-family: Literata; font-weight: 300; border-bottom: none; padding-bottom: 6px; }
+---
+
 ## Input: A backendless document editor with Git persistence
 
 Input is a document editor, like Obsidian or HackMD, with GitHub as a backend.

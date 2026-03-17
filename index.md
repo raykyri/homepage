@@ -1,7 +1,8 @@
 ---
+fonts: Literata
 css: |
   h1, p, li {
-    font-family: "IBM Plex Sans", Inter, -apple-system, sans-serif;
+    font-family: Literata, Inter, -apple-system, sans-serif;
   }
 ---
 

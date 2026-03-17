@@ -1,14 +1,14 @@
 Hi, I'm Raymond!
 
-I was a cofounder at Commonwealth, an early DAO/governance tool, which raised $20m+ and was used by hundreds of protocols. I designed and built the product.
+I'm working on human-AI interaction research, including multi-user AI interfaces, data interoperability, and new platforms for agent orchestration and management.
 
-Previously I was at AngelList, Facebook, and Medium, a founding engineer and head of product at a predictive analytics company.
+Previously I was a cofounder at Commonwealth, an early DAO/governance tool, which raised $20m+ and was used by hundreds of protocols. I designed and built the product.
 
-Currently working on:
+Before that, I was at AngelList, Facebook, Medium, and was founding engineer and head of product at a predictive analytics company.
 
-- [[Stateless Software]]: Building web applications with data portability on GitHub
-- Multi-user AI interfaces
-- Privileged access management and identity infrastructure, for humans + agents
+Recent writing:
+
+- [[Stateless Software]]: Web applications with data portability on GitHub
 
 Previous projects:
 

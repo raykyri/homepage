@@ -1,8 +1,7 @@
 ---
 css: |
   h1, p {
-    color: #123456;
-    font-family: "IBM Plex Sans", var(--reader-font-family), sans-serif;
+    font-family: "IBM Plex Sans", Inter, -apple-system, sans-serif;
   }
 ---
 

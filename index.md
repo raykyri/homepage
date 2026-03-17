@@ -4,7 +4,7 @@ I'm working on human-AI interaction research, including multi-user AI interfaces
 
 Previously I was a cofounder at Commonwealth, an early DAO/governance tool, which raised $20m+ and was used by hundreds of protocols. I designed and built the product.
 
-Before that, I was at AngelList, Facebook, Medium, and was founding engineer and head of product at a predictive analytics company.
+Before that, I was at AngelList, Facebook, Medium, and worked on analytics and user-facing product like matching marketplace mechanisms. I was also founding engineer and head of product at a company building predictive analytics for geopolitics and finance.
 
 Recent writing:
 

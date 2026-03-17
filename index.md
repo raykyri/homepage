@@ -12,7 +12,7 @@ Recent writing:
 
 Previous projects:
 
-- [TEEKit](https://teekit.org): Encrypted channels for trusted execution environments
+- [TEEKit](https://teekit.org): Secure channels for applications in trusted execution environments. Moxie Marlinspike later built a similar system using [Noise protocol](https://en.wikipedia.org/wiki/Noise_Protocol_Framework) for Confer, his TEE/AI platform.
 - [Canvas](https://github.com/canvasxyz/canvas): A peer-to-peer database with programmable logic
 - [Eventually-consistent execution on peer-to-peer databases](https://joelgustafson.com/posts/2025-07-21/serializable-transactions-for-peer-to-peer-databases/) (with Joel Gustafson)
 - [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (with 0xPARC)

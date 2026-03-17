@@ -1,3 +1,11 @@
+---
+css: |
+  h1, p {
+    color: #123456;
+    font-family: "IBM Plex Sans", var(--reader-font-family), sans-serif;
+  }
+---
+
 Hi, I'm Raymond!
 
 I'm working on human-AI interaction research, including multi-user AI interfaces, data interoperability, and new platforms for agent orchestration and management.

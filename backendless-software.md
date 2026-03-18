@@ -15,9 +15,7 @@ css: |
 
 ##### [Raymond Z](https://x.com/selkrei), February 2026
 
-For a long time, hackers and hobbyists have proposed different ways to create software free of central control. Many proposed new, neutral, data-portability protocols for users to store their data, and delegate it to different applications, like Tim Berners-Lee's Solid or Bluesky's AT Protocol.
-
-With artificial intelligence starting to automate more of the work of building software, I started to wonder: what if we didn't need a new protocol? What if we could use what we already have?
+For a long time, hackers and hobbyists have proposed different ways to create software free of central control. Usually this has involved a new data-portability protocol where users store their data, and delegate it to different applications. But with artificial intelligence starting to automate more of the work of building software, I started to wonder: what if we didn't need a new protocol?
 
 ### Input: Backendless documents built on GitHub
 

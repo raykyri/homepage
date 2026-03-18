@@ -26,7 +26,7 @@ Every file on Input is backed by GitHub, and the server is just a caching proxy,
 
 ### Backendless software
 
-Applications like [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) pioneered this approach, using a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. Historically, however, these integrations remained niche. Most software has been inherently "hostile" to third-party APIs for primary storage, preferring a ["file over app"](https://stephango.com/file-over-app) philosophy that keeps data local.
+Applications like [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) explored this approach early on -- they were complex applications that used a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. Historically, however, these integrations have remained niche. Most software has been inherently "hostile" to third-party APIs for primary storage. At best, we've gotten a ["file over app"](https://stephango.com/file-over-app) philosophy that keeps data local.
 
 This dynamic seems to be shifting now. AI means people are now connecting an ever-growing list of tools to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, merge, and push to Git.
 

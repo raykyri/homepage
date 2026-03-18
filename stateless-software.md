@@ -1,7 +1,9 @@
 ---
 fonts:
   - headings: Literata
-css: h2 { font-size: 28px; font-family: Literata; font-weight: 300; border-bottom: none; padding-bottom: 6px; }
+css: |
+  h2, h3 { font-family: Literata; font-weight: 300; }
+  h2 { font-size: 28px; border-bottom: none; padding-bottom: 6px; }
 ---
 
 ## Input: A backendless document editor backed by GitHub
@@ -15,8 +17,8 @@ Input is a document editor, like Obsidian, HackMD, or Notion, that uses GitHub a
 Every file on Input is backed by GitHub, and the server is just a caching proxy, so we fetch and render Markdown files as users open them. This means:
 
 - No lock-in: You can easily fork the application, run it locally, or apply custom modifications.
-- Interoperability: Input works seamlessly with any tool connected to GitHub, such as Claude Code, Cursor Agents, or Obsidian.
-- Human-readable data: All content follows open schemas, specifically Markdown with front matter and standard extensions.
+- Interoperable: Input works seamlessly with any tool connected to GitHub, such as Claude Code, Cursor Agents, or Obsidian.
+- Open data: All content follows open schemas, specifically Markdown with front matter and standard extensions.
 
 ### Backendless software
 

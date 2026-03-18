@@ -29,9 +29,9 @@ Every file on Input is backed by GitHub, and the server is just a caching proxy,
 
 Applications like [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) explored this approach early on -- they were complex applications that used a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. Historically, however, these integrations have remained niche. Most software has been inherently "hostile" to third-party APIs for primary storage. At best, we've gotten a ["file over app"](https://stephango.com/file-over-app) philosophy that keeps data local.
 
-This dynamic seems to be shifting now. AI means people are now connecting an ever-growing list of tools to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, merge, and push to Git.
+But now, because of AI, people are connecting an ever-growing list of tools to GitHub: Cursor Agents, Claude, Codex, code review tools, test runners, and more. Even non-technical users are starting to pick up Claude Code, and some are even teaching themselves to commit, merge, and push.
 
-Simultaneously, AI agents are collapsing the cost of software development. An independent developer can now build and maintain a sophisticated application in a matter of days. This means we may have more freedom than ever to create high-quality software that doesn't require a traditional business model.
+AI agents are also collapsing the cost of software development so that an independent developer can now build and maintain a sophisticated application in a matter of days. This means we may have more freedom than ever to create high-quality software that doesn't require a traditional business model.
 
 ### Distributed data
 

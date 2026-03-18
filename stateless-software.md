@@ -3,7 +3,7 @@ fonts:
   - headings: Literata
 css: |
   h2, h3, h4, h5, h6 { font-family: Literata; font-weight: 300; }
-  h2 { font-size: 28px; border-bottom: none; padding-bottom: 6px; }
+  h2 { font-size: 28px; border-bottom: none; padding-bottom: 0px; margin-bottom: 0px; }
   h5 {
     font-style: italic;
     font-size: 16px;
@@ -11,11 +11,17 @@ css: |
   }
 ---
 
-## Input: A backendless document editor built on GitHub
+## Backendless Software
 
 ##### [Raymond Z](https://x.com/selkrei), February 2026
 
-For a long time, hackers and hobbyists have proposed different ways to create software free of centralized services. A common feature in these systems is a neutral data-portability protocol where users store their data, like Solid or Bluesky's AT Protocol. But what if we didn't need a new protocol?
+For a long time, hackers and hobbyists have proposed different ways to create software free of corporate overlords or centralized controllers. Many of these systems give users a new, neutral data-portability protocol where they can store their data, which they delegate to different applications.[^1]
+
+[^1]: Some examples include Tim Berners-Lee's Solid, Bluesky's AT Protocol. For the last three years, I also spent most of my time working on [an attempt](https://github.com/canvasxyz/canvas) to make this work. Our approach was to work with a slice of crypto projects that seemed to, at least at the time, care about delivering products and building developer communities and hacker subcultures. Over time, most of them shifted their focus towards gambling and speculation.
+
+With artificial intelligence starting to automate more of the work of building software, I started to wonder, what if we didn't need a new protocol? What if we could use the services and standards we already had?
+
+### Input: A backendless document editor built on GitHub
 
 Input is a document editor, like Obsidian, HackMD, or Notion, that uses GitHub as a backend. It's also a demonstration that AI era applications can use GitHub for data portability and long-term persistence.
 

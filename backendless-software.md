@@ -19,9 +19,7 @@ For a long time, hackers and hobbyists have proposed different ways to create so
 
 ### Input: Backendless documents built on GitHub
 
-Input is a document editor, like Obsidian, HackMD, or Notion, that uses Git as a backend. It's also a demonstration that AI-era applications can use GitHub for data portability and long-term persistence.
-
-Every file on Input is backed by GitHub, and the server is just a caching proxy. We fetch and render Markdown files as users open them, and commit edits on save. This means:
+Input is a document editor, like Obsidian, HackMD, or Notion, that uses Git as a backend. Every file on Input is backed by GitHub, and the server is just a caching proxy. We fetch and render Markdown files as users open them, and commit edits on save. This means:
 
 - No lock-in: You can easily fork the application, run it locally, or apply custom modifications.
 - Interoperable: Input works seamlessly with any tool connected to GitHub, such as Claude Code, Cursor Agents, or Obsidian.

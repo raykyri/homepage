@@ -6,6 +6,7 @@ css: |
   h2 { font-size: 28px; border-bottom: none; padding-bottom: 6px; }
   h5 {
     font-style: italic;
+    font-size: 16px;
     margin-bottom: 24px;
   }
 ---

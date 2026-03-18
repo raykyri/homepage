@@ -4,13 +4,15 @@ fonts:
 css: h2 { font-size: 28px; font-family: Literata; font-weight: 300; border-bottom: none; padding-bottom: 6px; }
 ---
 
-## Input: A backendless document editor with Git persistence
+## Input: A backendless document editor backed by GitHub
 
-Input is a document editor, like Obsidian or HackMD, with GitHub as a backend.
+For a long time, hackers and hobbyists have proposed different ways to create software that's independent of centralized services. A common feature in these systems is a neutral data-portability protocol that lets users reclaim their data, like Tim Berners-Lee's Solid or Bluesky's AT Protocol.
 
-It's also a demonstration that applications in the AI era can use GitHub for data portability and long-term persistence. Every file on Input is backed by GitHub. The server is just a caching proxy, and we fetch and render Markdown files as users open them.
+What if that protocol already existed?
 
-This means:
+Input is a document editor, like Obsidian, HackMD, or Notion, that uses GitHub as a backend. It's also a demonstration that AI era applications can use GitHub for data portability and long-term persistence.
+
+Every file on Input is backed by GitHub, and the server is just a caching proxy, so we fetch and render Markdown files as users open them. This means:
 
 - No lock-in: You can easily fork the application, run it locally, or apply custom modifications.
 - Interoperability: Input works seamlessly with any tool connected to GitHub, such as Claude Code, Cursor Agents, or Obsidian.

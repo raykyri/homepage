@@ -1,27 +1,19 @@
----
-fonts: Literata
-css: |
-  h1, p, li {
-    font-family: Literata, Inter, -apple-system, sans-serif;
-  }
----
-
 Hi, I'm Raymond!
 
-I'm working on human-AI interaction research, including multi-user AI interfaces, data interoperability, and new platforms for agent orchestration and management.
+I'm working on multi-user AI interfaces, interoperability, and new agent platforms.
 
-Previously I was a cofounder at Commonwealth, an early DAO/governance tool, which raised $20m+ and was used by hundreds of protocols. I designed and built the product.
+Previously I was a cofounder at Commonwealth, an early DAO/governance tool, which raised $20m+ and was used by hundreds of protocols, including many worth $1bn+. I designed and built the product.
 
-Before that, I was at AngelList, Facebook, Medium, and worked on analytics and user-facing product like matching marketplace mechanisms. I was also founding engineer and head of product at a company building predictive analytics for political intelligence.
+Before that, I was at AngelList, Facebook, Medium, and worked on analytics, user-facing product, and mechanism design. I was also founding engineer and head of product at a company building predictive analytics for political intelligence.
 
 Recent writing:
 
-- [[Stateless Software]]: Web applications with data portability on GitHub
+- [[Backendless Software]] (February 2026)
 
 Previous projects:
 
-- [TEEKit](https://teekit.org): Secure channels for applications in trusted execution environments. Moxie Marlinspike later built a similar system using [Noise protocol](https://en.wikipedia.org/wiki/Noise_Protocol_Framework) for Confer, his TEE/AI platform.
-- [Canvas](https://github.com/canvasxyz/canvas): A peer-to-peer database with programmable logic
-- [Eventually-consistent execution on peer-to-peer databases](https://joelgustafson.com/posts/2025-07-21/serializable-transactions-for-peer-to-peer-databases/) (with Joel Gustafson)
-- [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (with 0xPARC)
-- [Declaration of Interdependence](https://verses.xyz/) (with Verses)
+- [TEEKit](https://teekit.org) (2025-2026): Secure channels for applications in trusted execution environments. Moxie Marlinspike later built a similar system using [Noise](https://en.wikipedia.org/wiki/Noise_Protocol_Framework) for Confer, his TEE/AI platform.
+- [Canvas](https://github.com/canvasxyz/canvas) (2022-2025): A peer-to-peer database with programmable logic
+  - [Eventually-consistent execution on peer-to-peer databases](https://joelgustafson.com/posts/2025-07-21/serializable-transactions-for-peer-to-peer-databases/) (with Joel Gustafson)
+- [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, with 0xPARC)
+- [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)

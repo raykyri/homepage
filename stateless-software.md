@@ -2,15 +2,19 @@
 fonts:
   - headings: Literata
 css: |
-  h2, h3 { font-family: Literata; font-weight: 300; }
+  h2, h3, h4, h5, h6 { font-family: Literata; font-weight: 300; }
   h2 { font-size: 28px; border-bottom: none; padding-bottom: 6px; }
+  h5 {
+    font-style: italic;
+    margin-bottom: 24px;
+  }
 ---
 
 ## Input: A backendless document editor backed by GitHub
 
-For a long time, hackers and hobbyists have proposed different ways to create software that's independent of centralized services. A common feature in these systems is a neutral data-portability protocol that lets users reclaim their data, like Tim Berners-Lee's Solid or Bluesky's AT Protocol.
+##### February 2026
 
-What if that protocol already existed?
+For a long time, hackers and hobbyists have proposed different ways to create software that's independent of centralized services. A common feature in these systems is a neutral data-portability protocol that lets users reclaim their data. But what if we didn't need a new protocol?
 
 Input is a document editor, like Obsidian, HackMD, or Notion, that uses GitHub as a backend. It's also a demonstration that AI era applications can use GitHub for data portability and long-term persistence.
 

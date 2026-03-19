@@ -15,7 +15,7 @@ css: |
 
 ##### [Raymond Z](https://x.com/selkrei), February 2026
 
-For a long time, hackers and hobbyists have proposed different ways to create software free of central control. Usually this has involved a new data-portability protocol where users store their data, and delegate it to different applications. But with artificial intelligence starting to automate more of the work of building software, I started to wonder: what if we didn't need a new protocol? What if we could use the systems we already have today?
+For a long time, hackers and hobbyists have proposed different ways to create software free of central control. Usually this has involved a new data-portability protocol where users store their data, and delegate it to different applications. But with artificial intelligence starting to automate more of the work of building software, what if we didn't need a new protocol? What if we could use systems we already have today?
 
 ### Input: Backendless documents built on GitHub
 
@@ -25,9 +25,9 @@ Input is a document editor, like Obsidian, HackMD, or Notion, that uses Git as a
 - Interoperable: Input works seamlessly with any tool connected to GitHub, such as Claude Code, Cursor Agents, or Obsidian.
 - Open data: All content follows open schemas, specifically Markdown with front matter and standard extensions.
 
-The application was built over a month, but I started using it for most of my personal writing after a week. A friend asked about building Cursor for writing, so I added a (free) AI integration using OpenRouter the second week. Afterwards, I started using it for work collaborations, adding share links and better privacy support.
+The application was built over a month. I started using it for personal writing after a week, and since then, just accumulate feature requests in a .md file, feed them to a coding agent, and briefly audit the commits that it generates.
 
-At this point, improvements and maintenance just kind of happen as they come up -- the application is a lot more customizable than Obsidian, so I use it to write, accumulate feature requests in a .md file, and feed those to a coding agent.
+There is no plugin system yet, which seems like the main limitation towards the system becoming useful for other people. Ideally, Input would become a system like [Pi](https://pi.dev/), the minimal coding agent - light enough to be useful on day one, flexible enough that anyone can customize it to work for themselves.
 
 ### Pragmatic Predecessors
 

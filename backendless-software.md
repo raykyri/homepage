@@ -29,6 +29,10 @@ The application was built over a month. I started using it for personal writing 
 
 There is no plugin system yet, which seems like the main limitation towards the system becoming useful for other people. Ideally, Input would become a system like [Pi](https://pi.dev/), the minimal coding agent - light enough to be useful on day one, flexible enough that anyone can customize it to work for themselves.
 
+![pasted-20260319-103824-lcsh8q.png](./.assets/pasted-20260319-103824-lcsh8q.png "input-size=2400x1586")
+
+_Editing a live document..._
+
 ### Pragmatic Predecessors
 
 Applications like [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) explored how to build applications without backends early on -- they were complex applications that used a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. Historically, however, these integrations have remained niche. Most software has been inherently hostile to third-party APIs for primary storage. At best, we've gotten a ["file over app"](https://stephango.com/file-over-app) philosophy that keeps data local.
@@ -53,7 +57,7 @@ But putting that aside for a moment, assistants like Claude and Codex have made 
 
 ![pasted-20260317-192608-9lllq9.png](./.assets/pasted-20260317-192608-9lllq9.png "input-size=2280x1314")
 
-_Git leaks through in a few places; one of them is this commit management dashboard, which is useful for checking which commits affected a given file._
+_Managing past commits through the compaction dashboard._
 
 ### The Future of Software
 

@@ -51,5 +51,5 @@ This worked well enough that we ported a fairly complex [real-time game](https:/
 
 - [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, 0xPARC Hack Week)
 - [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)
-- [Commonwealth] - Built the initial product and engineering team. Company later raised a seed round from [Dragonfly](https://www.coindesk.com/business/2021/05/18/common-protocol-raises-32m-to-streamline-defi-governance), and Series A from [Spark Capital](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token).
+- [Commonwealth] (2018-2021) - Built the initial product and engineering team. Company later raised a seed round from [Dragonfly](https://www.coindesk.com/business/2021/05/18/common-protocol-raises-32m-to-streamline-defi-governance), and Series A from [Spark Capital](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token).
 - [Princeton] - Undergraduae degree in computer science, research at the Center for Information Technology Policy.

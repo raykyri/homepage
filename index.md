@@ -17,9 +17,9 @@ Before that, I was at AngelList, Facebook, Medium, and founding engineer at a co
 
 Human-computer interface experiments using modern language models.
 
-- Created a Quora-like knowledge graph and social network for people to help each other answer questions with AI.
-- Created a recursive summarization system that created concise bullet-point outlines, to distill books of up to hundreds of pages. Collaborated with [avichalp](https://avichalp.me/).
-- Created Input, an Obsidian-like editor that uses Git repos for data portability. You can read about this in [[Backendless Software]]. Input is [open source](https://github.com/inputmd/input).
+- A Quora-like knowledge graph and social network for people to help each other answer questions with AI.
+- A recursive summarization system that created concise bullet-point outlines, to distill books of up to hundreds of pages. Collaborated with [avichalp](https://avichalp.me/).
+- An Obsidian-like document editor with AI, that uses Git repos for data portability. You can read about this in [[Backendless Software]]. Input is [open source](https://github.com/inputmd/input).
 
 #### [TEEKit](https://teekit.org) (2025)
 

@@ -1,6 +1,8 @@
 ---
 fonts: Literata
-css: h3, h4 { font-family: Literata }
+css: |
+  h3, h4 { font-family: Literata; font-weight: 400 }
+  a { color: #ffd5aa }
 ---
 
 Hi, I'm Raymond!
@@ -51,3 +53,12 @@ This worked well enough that we ported a fairly complex [real-time game](https:/
 - [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)
 - [Commonwealth] - Built the initial product and engineering team. Company later raised a seed round from [Dragonfly](https://www.coindesk.com/business/2021/05/18/common-protocol-raises-32m-to-streamline-defi-governance), and Series A from [Spark Capital](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token).
 - [Princeton] - Undergraduae degree in computer science, research at the Center for Information Technology Policy.
+
+#### Blogroll
+
+[Jasmine Wang](https://substack.com/@jasminewang)
+[Saffron Huang](https://saffronhuang.com/)
+[Divya Siddarth](https://divyasiddarth.com/)
+[Graham Johnson](https://suspendedreason.github.io/)
+[Ivan Vendrov](https://www.vendrov.ai/)
+[Snav](https://snavsoft.com/)

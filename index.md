@@ -13,6 +13,13 @@ Previously I was a cofounder at Commonwealth, an early DAO/governance tool, whic
 
 Before that, I was at AngelList, Facebook, Medium, and founding engineer at a company building predictive analytics for political intelligence.
 
+- [TEEKit](#teekit) (2025) - JS/TS runtime similar to Cloudflare Workers for applications in trusted execution environments.
+- [Canvas](#canvas) (2022-2025) - Programmable peer-to-peer database and sync engine, built on libp2p, with transactional guarantees.
+- [Commonwealth] (2018-2021) - Built the initial product and engineering team. Company later raised a seed round from [Dragonfly](https://www.coindesk.com/business/2021/05/18/common-protocol-raises-32m-to-streamline-defi-governance), and Series A from [Spark Capital](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token).
+- [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, 0xPARC Hack Week)
+- [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)
+- [Princeton] - Undergraduae degree in computer science, research at the Center for Information Technology Policy.
+
 ### Projects
 
 #### HCI/AI Projects (2026)
@@ -46,10 +53,3 @@ Canvas was a programmable peer-to-peer database, created as a spinout from my pr
 To do this, we created a syntax for JS "smart contracts", essentially stored procedures written as JS functions, on top of a simple key-value database. By doing some clever bookkeeping, we built a causal graph of events that happened on different nodes simultaneously, which allowed us to specify deterministic logic for merging (or dropping) concurrent events.
 
 This worked well enough that we ported a fairly complex [real-time game](https://www.pogiciv.com/) to our system. We also published a few research blog posts, including ones on [reliable broadcast for libp2p](https://joelgustafson.com/posts/2024-09-30/gossiplog-reliable-causal-broadcast-for-libp2p/) and [serializable transactions for peer-to-peer databases](https://joelgustafson.com/posts/2025-07-21/serializable-transactions-for-peer-to-peer-databases/).
-
-#### Earlier Projects
-
-- [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, 0xPARC Hack Week)
-- [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)
-- [Commonwealth] (2018-2021) - Built the initial product and engineering team. Company later raised a seed round from [Dragonfly](https://www.coindesk.com/business/2021/05/18/common-protocol-raises-32m-to-streamline-defi-governance), and Series A from [Spark Capital](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token).
-- [Princeton] - Undergraduae degree in computer science, research at the Center for Information Technology Policy.

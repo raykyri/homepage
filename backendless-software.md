@@ -1,6 +1,5 @@
 ---
-fonts:
-  - headings: Literata
+fonts: Literata
 css: |
   h2, h3, h4, h5, h6 { font-family: Literata; font-weight: 300; }
   h2 { font-size: 28px; border-bottom: none; padding-bottom: 0px; margin-bottom: 0px; }

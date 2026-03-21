@@ -14,7 +14,7 @@ Previously I was a cofounder at Commonwealth, an early DAO/governance tool, whic
 Before that, I was at AngelList, Facebook, Medium, and founding engineer at a company building predictive analytics for political intelligence.
 
 - [TEEKit](#teekit) (2025) - JS/TS runtime similar to Cloudflare Workers for applications in trusted execution environments.
-- [Canvas](#canvas) (2022-2025) - Programmable peer-to-peer database and sync engine, built on libp2p, with transactional guarantees.
+- [Canvas](#canvas) (2022-2025) - Programmable peer-to-peer database and sync engine.
 - [Commonwealth] (2018-2021) - Built the initial product and engineering team. Company later raised a seed round from [Dragonfly](https://www.coindesk.com/business/2021/05/18/common-protocol-raises-32m-to-streamline-defi-governance), and Series A from [Spark Capital](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token).
 - [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, 0xPARC Hack Week)
 - [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)

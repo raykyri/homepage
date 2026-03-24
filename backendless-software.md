@@ -1,9 +1,8 @@
 ---
-fonts:
-  - headings: Literata
+fonts: Literata
 css: |
   h2, h3, h4, h5, h6 { font-family: Literata; font-weight: 300; }
-  h2 { font-size: 28px; border-bottom: none; padding-bottom: 6px; }
+  h2 { font-size: 28px; border-bottom: none; padding-bottom: 0px; margin-bottom: 0px; }
   h5 {
     font-style: italic;
     font-size: 16px;
@@ -11,21 +10,29 @@ css: |
   }
 ---
 
-## Input: A backendless document editor built on GitHub
+## Backendless Software
 
-##### [Raymond Z](https://x.com/selkrei), February 2026
+##### February 2026
 
-For a long time, hackers and hobbyists have proposed different ways to create software free of centralized services. A common feature in these systems is a neutral data-portability protocol where users store their data, like Solid or Bluesky's AT Protocol. But what if we didn't need a new protocol?
+For a long time, hackers and hobbyists have proposed different ways to create software free of central control. Usually this has involved a new data-portability protocol where users store their data, and delegate it to different applications. But with artificial intelligence starting to automate more of the work of building software, what if we didn't need a new protocol? What if we could use systems we already have today?
 
-Input is a document editor, like Obsidian, HackMD, or Notion, that uses GitHub as a backend. It's also a demonstration that AI era applications can use GitHub for data portability and long-term persistence.
+### Input: Backendless documents built on GitHub
 
-Every file on Input is backed by GitHub, and the server is just a caching proxy, so we fetch and render Markdown files as users open them. This means:
+Input is a document editor, like Obsidian, HackMD, or Notion, that uses Git as a backend. Every file on Input is backed by GitHub, and the server is just a caching proxy. We fetch and render Markdown files as users open them, and commit edits on save. This means:
 
 - No lock-in: You can easily fork the application, run it locally, or apply custom modifications.
 - Interoperable: Input works seamlessly with any tool connected to GitHub, such as Claude Code, Cursor Agents, or Obsidian.
 - Open data: All content follows open schemas, specifically Markdown with front matter and standard extensions.
 
-### Backendless software
+The application was built over a month. I started using it for personal writing after a week, and since then, just accumulate feature requests in a .md file, feed them to a coding agent, and briefly audit the commits that it generates.
+
+There is no plugin system yet, which seems like the main limitation towards the system becoming useful for other people. Ideally, Input would become a system like [Pi](https://pi.dev/), the minimal coding agent - light enough to be useful on day one, flexible enough that anyone can customize it to work for themselves.
+
+![pasted-20260319-103824-lcsh8q.png](./.assets/pasted-20260319-103824-lcsh8q.png "input-size=2400x1586")
+
+_Editing a live document..._
+
+### Pragmatic Predecessors
 
 Applications like [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) explored how to build applications without backends early on -- they were complex applications that used a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. Historically, however, these integrations have remained niche. Most software has been inherently hostile to third-party APIs for primary storage. At best, we've gotten a ["file over app"](https://stephango.com/file-over-app) philosophy that keeps data local.
 
@@ -33,7 +40,7 @@ But now, because of AI, people are connecting an ever-growing list of tools to G
 
 AI agents are also collapsing the cost of software development, so that an independent developer can now build and maintain a sophisticated application in a matter of days. We might have more freedom than ever to create high-quality software that doesn't fit within traditional boundaries.
 
-### Distributed data
+### Working with Distributed Data
 
 Still, building backendless software, especially on GitHub, runs into a few recurring problems. One is the complexity of distributed data. Rather than working with a simple local database, you get the GitHub API, which isn't even a clean filesystem abstraction.
 
@@ -41,20 +48,20 @@ GitHub APIs don't give you consistency, which means that it's easy to edit a fil
 
 GitHub APIs are also designed to serve a much smaller number of users than what you'd need for a public-facing application, so you have to cache a meaningful portion of users' requests.
 
-Even after solving these problems, you still have to deal with conflict resolution. If multiple people edit the same files, you'll run into merge conflicts that cannot be solved without user involvement.
+Even after solving these problems, you still have to deal with conflict resolution. If multiple people edit the same files, you'll run into merge conflicts that cannot be resolved without user involvement.
 
 These are all problems from a totally different domain than the ones designers and product-oriented software developers are used to thinking about.
 
-But putting that aside for a moment, assistants like Claude and Codex have made it possible to address *most* of these issues. At least, it's possible to use them to create a client-side, local-first data store that closely matches the GitHub API, which is what this application uses. As a result, the application feels about as responsive as Notion (faster in some places, slower in others). Backendless software is possible, and this is the worst the infrastructure will ever be.
+But putting that aside for a moment, assistants like Claude and Codex have made it possible to address *most* of these issues. At least, it's possible to use them to create a client-side, local-first data store that closely matches the GitHub API, which is what this application uses. The application feels about as responsive as Notion (faster in some places, slower in others), and the infrastructure will only get better from here.
 
 ![pasted-20260317-192608-9lllq9.png](./.assets/pasted-20260317-192608-9lllq9.png "input-size=2280x1314")
 
-_Git leaks through in a few places; one of them is this commit management dashboard, which is useful for checking which commits affected a given file._
+_Managing past commits through the compaction dashboard._
 
-### The future of software
+### The Future of Software
 
 Before agents, backendless software couldn't compete with walled-garden, siloed software. But now a designer or engineer can create a complex application in days. The problem now is that there's too much software, and most of it isn't trustworthy or long-lasting.
 
 Could the solution be storing data in portable containers, and making the application open-source? Knowing that my data will remain accessible to me gives me the assurance I need to take a piece of software seriously, both as a user and as a contributor.
 
-The question is almost where this comes from. After working on decentralized infrastructure for a few years, I am more skeptical that it will come from the same people who advocated for decentralized applications or communal software. It seems just as likely it will come from a new kind of organization: a research lab, an AI company, a [subculture](https://cyborgism.wiki/), or some other kind of structure with a new and fresh take, that lets them build this new kind of infrastructure.
+After working on decentralized infrastructure for a few years, I'm not sure that it will come from the same people who advocated for decentralized applications or even communal software. It seems just as likely to come from a new kind of organization: a research lab, an AI company, a [subculture](https://cyborgism.wiki/), or some other kind of structure with a new and fresh take, that lets them build a fresh and new kind of infrastructure.

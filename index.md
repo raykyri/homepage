@@ -6,12 +6,11 @@ css: |
 
 Hi, I'm Raymond!
 
-I'm working on multi-user AI interfaces, interoperability, and new agent platforms.
-
 Previously I was a cofounder at Commonwealth, an early DAO/governance tool, which raised $20m+ and was used by hundreds of protocols. I designed and built the product.
 
 Before that, I was at AngelList, Facebook, Medium, and founding engineer at a company building predictive analytics for political intelligence.
 
+- [[Backendless Software]] (2026)
 - [TEEKit](https://teekit.org) (2025)
 - [Canvas](https://github.com/canvasxyz/canvas) (2022-2025)
 - [Commonwealth](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token) (2018-2021)

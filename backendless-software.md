@@ -1,22 +1,16 @@
 ---
-fonts: Literata
+fonts: Libre Baskerville, Literata
 css: |
-  h2, h3, h4, h5, h6 { font-family: Literata; font-weight: 300; }
-  h2 { font-size: 28px; border-bottom: none; padding-bottom: 0px; margin-bottom: 0px; }
-  h5 {
-    font-style: italic;
-    font-size: 16px;
-    margin-bottom: 24px;
-  }
+  h1, h2, h3, h4, h5 { font-family: Libre Baskerville; line-height: 1.6; }
+  p, ul { font-family: Literata; max-width: 380px; }
+  .content { max-width: none; }
 ---
 
-## Backendless Software
+# Backendless Software
 
-##### February 2026
+For years, hackers and hobbyists have proposed different ways to create software free of central control. Usually this has involved a new data-portability protocol where users store their data, and delegate it to different applications. But with artificial intelligence starting to automate more of the work of building software, what if we didn't need a new protocol? What if we could use systems we already have today?
 
-For many years, hackers and hobbyists have proposed different ways to create software free of central control. Usually this has involved a new data-portability protocol where users store their data, and delegate it to different applications. But with artificial intelligence starting to automate more of the work of building software, what if we didn't need a new protocol? What if we could use systems we already have today?
-
-### Input: Backendless documents built on GitHub
+### Backendless GitHub Docs
 
 Input is a document editor, like Obsidian, HackMD, or Notion, that uses Git as a backend. Every file on Input is backed by GitHub, and the server is just a caching proxy. We fetch and render Markdown files as users open them, and commit edits on save. This means:
 
@@ -31,8 +25,6 @@ There is no plugin system yet, which seems like the main limitation towards the 
 ![pasted-20260319-103824-lcsh8q.png](./.assets/pasted-20260319-103824-lcsh8q.png "input-size=2400x1586")
 
 _Editing a live document..._
-
-### Pragmatic Predecessors
 
 Applications like [Draw.io](https://draw.io) and [tldraw](https://tldraw.io) explored how to build applications without backends early on -- they were complex applications that used a patchwork of APIs to provide persistence through services like Google Drive and Dropbox. Historically, however, these integrations have remained niche. Most software has been inherently hostile to third-party APIs for primary storage. At best, we've gotten a ["file over app"](https://stephango.com/file-over-app) philosophy that keeps data local.
 
@@ -57,8 +49,6 @@ But putting that aside for a moment, assistants like Claude and Codex have made 
 ![pasted-20260317-192608-9lllq9.png](./.assets/pasted-20260317-192608-9lllq9.png "input-size=2280x1314")
 
 _Managing past commits through the compaction dashboard._
-
-### The Future of Software
 
 Before agents, backendless software couldn't compete with walled-garden, siloed software. But now a designer or engineer can create a complex application in days. The problem now is that there's too much software, and most of it isn't trustworthy or long-lasting.
 

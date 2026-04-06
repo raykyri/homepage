@@ -24,5 +24,6 @@ Other projects:
 
 - [Input, a Markdown editor](https://farcaster.xyz/rz/0x8b947439) (2026)
 - [[Backendless Software]] (2026)
+- [Filecoin Governance](https://github.com/canvasxyz/metropolis) (2024-2025)
 - [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, 0xPARC Hack Week)
 - [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)

@@ -12,7 +12,7 @@ I was a cofounder and led product/engineering at [Commonwealth](https://decrypt.
 
 I was an engineer and head of product at [Predata](https://www.prnewswire.com/news-releases/predata-predictive-intelligence-pioneer-raises-325-million-financing-round-led-by-edison-partners-300304610.html), a predictive analytics platform that used online conversation metadata for applications in government and finance.
 
-Before that, I was at AngelList, Facebook, and Medium.
+Before that, I was at AngelList, Facebook, and Medium, while attending Princeton as a student in computer science.
 
 Work:
 
@@ -22,6 +22,7 @@ Work:
 
 Other projects:
 
+- [Input, a Markdown editor](https://farcaster.xyz/rz/0x8b947439) (2026)
 - [[Backendless Software]] (2026)
 - [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, 0xPARC Hack Week)
 - [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)

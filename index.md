@@ -2,6 +2,11 @@
 fonts: Literata
 css: |
   h3, h4, p, li { font-family: Literata; font-weight: 400 }
+  hr {
+    margin: 25px 0 24px;
+    border: 0;
+    border-bottom: 1px solid var(--border);
+  }
 ---
 
 Hi, I'm Raymond!
@@ -13,6 +18,8 @@ I was a cofounder and led product/engineering at [Commonwealth](https://decrypt.
 I was an engineer and head of product at [Predata](https://www.prnewswire.com/news-releases/predata-predictive-intelligence-pioneer-raises-325-million-financing-round-led-by-edison-partners-300304610.html), a predictive analytics platform that used online conversation metadata for applications in government and finance.
 
 Before that, I was at AngelList, Facebook, and Medium, while attending Princeton as a student in computer science.
+
+---
 
 Work:
 

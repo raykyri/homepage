@@ -15,7 +15,7 @@ I'm a software engineer and designer based in New York.
 
 I was a cofounder and led product/engineering at [Commonwealth](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token), a startup building infrastructure for decentralized organizations.
 
-I was an engineer and head of product at [Predata](https://www.prnewswire.com/news-releases/predata-predictive-intelligence-pioneer-raises-325-million-financing-round-led-by-edison-partners-300304610.html), a predictive analytics platform that analyzed online conversation metadata for government and finance.
+I was an engineer and head of product at [Predata](https://www.prnewswire.com/news-releases/predata-predictive-intelligence-pioneer-raises-325-million-financing-round-led-by-edison-partners-300304610.html), a predictive analytics startup that analyzed online conversation metadata for government and finance.
 
 Before that, I was at AngelList, Facebook, and Medium, while attending Princeton as a student in computer science.
 

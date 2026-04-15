@@ -13,11 +13,13 @@ Hi, I'm Raymond!
 
 I'm a software engineer and designer based in New York.
 
-I was a cofounder and led product/engineering at [Commonwealth](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token), a startup building infrastructure for decentralized organizations.
+I've been working on Canvas, a engineering research lab. We built a decentralized runtime for TypeScript applications, that makes regular web backends "decentralized" through peer-to-peer sync.
 
-I was an engineer and head of product at [Predata](https://www.prnewswire.com/news-releases/predata-predictive-intelligence-pioneer-raises-325-million-financing-round-led-by-edison-partners-300304610.html), a predictive analytics startup that analyzed online conversation metadata for government and finance.
+I was a cofounder and led product/engineering at [Commonwealth](https://decrypt.co/100437/common-raises-20m-to-build-dao-management-platform-launch-token), a startup building infrastructure for decentralized organizations. We were used by hundreds of protocols to manage tens of billions in token value, and raised $23m from top investors including Spark Capital.
 
-Before that, I was at AngelList, Facebook, and Medium, while attending Princeton as a student in computer science.
+I was an engineer and head of product at [Predata](https://www.prnewswire.com/news-releases/predata-predictive-intelligence-pioneer-raises-325-million-financing-round-led-by-edison-partners-300304610.html), a predictive analytics startup, building models of online conversation for government and finance.
+
+Before that, I was one of the first fifteen employees at AngelList, and worked at Facebook, Addepar, and Medium while studying CS at Princeton.
 
 ---
 
@@ -32,5 +34,5 @@ Other projects:
 - [Input, a Markdown editor with GitHub persistence](https://farcaster.xyz/rz/0x8b947439) (2026)
 - [[Backendless Software]] (2026)
 - [A version of Polis for Filecoin Governance](https://github.com/canvasxyz/metropolis) (2024-2025)
-- [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, 0xPARC Hack Week)
+- [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, with 0xPARC)
 - [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)

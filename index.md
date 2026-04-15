@@ -1,7 +1,7 @@
 ---
-fonts: Literata
+fonts: Merriweather
 css: |
-  h3, h4, p, li { font-family: Literata; font-weight: 400 }
+  h3, h4, p, li { font-family: Merriweather, Charter, --apple-system; font-weight: 400 }
   hr {
     margin: 25px 0 24px;
     border: 0;

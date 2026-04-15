@@ -31,8 +31,7 @@ Work:
 
 Other projects:
 
-- [Input, a Markdown editor with GitHub persistence](https://farcaster.xyz/rz/0x8b947439) (2026)
 - [[Backendless Software]] (2026)
-- [A version of Polis for Filecoin Governance](https://github.com/canvasxyz/metropolis) (2024-2025)
+- [Polis for Filecoin Governance](https://github.com/canvasxyz/metropolis) (2024-2025, contract work)
 - [Group Signatures with zkSNARKs](https://0xparc.org/blog/zk-group-sigs) (2021, with 0xPARC)
 - [Declaration of Interdependence](https://verses.xyz/) (2021, with Verses)

@@ -3,13 +3,13 @@ fonts: Open Sans@400,700
 css: li, p, h1, h2, h3, h4, h5 { font-family: Open Sans }
 ---
 
-### Webterm
+### Webterm: Claude Code in the Browser
 
 _April 2026_
 
 There's a world of difference between "effectively free" and actually free. It's the difference between Facebook and email, or Notion and text files.
 
-Today, getting a shell environment, which is required to do most interesting work using agents, is close to free. As a result, people building AI-enabled applications have to spend money on their own API keys, or write complex integrations and reimplement tools that already come with Claude Code and Codex.
+Today, getting a shell environment, which is required to do most interesting work using agents, is close to free. People building AI-enabled web applications still have to spend money on their own API keys, or reimplement tools that already come with Claude Code and Codex.
 
 Webterm is an environment for these agents that's actually free.
 

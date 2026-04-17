@@ -1,16 +1,14 @@
 ---
-fonts: Libre Baskerville, Literata
-css: |
-  h1, h2, h3, h4, h5 { font-family: Libre Baskerville; line-height: 1.6; }
-  p, ul { font-family: Literata; max-width: 380px; }
-  .content { max-width: none; }
+title: Muji for Agentic Coding
+fonts: Open Sans@400,700
+css: li, p, h1, h2, h3, h4, h5 { font-family: Open Sans }
 ---
 
-# Backendless Software
+### Backendless Software
 
 For years, hackers and hobbyists have proposed different ways to create software free of central control. Usually this has involved a new data-portability protocol where users store their data, and delegate it to different applications. But with artificial intelligence starting to automate more of the work of building software, what if we didn't need a new protocol? What if we could use systems we already have today?
 
-### Backendless GitHub Docs
+#### Backendless GitHub Docs
 
 Input is a document editor, like Obsidian, HackMD, or Notion, that uses Git as a backend. Every file on Input is backed by GitHub, and the server is just a caching proxy. We fetch and render Markdown files as users open them, and commit edits on save. This means:
 
@@ -32,7 +30,7 @@ But now, because of AI, people are connecting an ever-growing list of tools to G
 
 AI agents are also collapsing the cost of software development, so that an independent developer can now build and maintain a sophisticated application in a matter of days. We might have more freedom than ever to create high-quality software that doesn't fit within traditional boundaries.
 
-### Working with Distributed Data
+#### Distributed Data
 
 Still, building backendless software, especially on GitHub, runs into a few recurring problems. One is the complexity of distributed data. Rather than working with a simple local database, you get the GitHub API, which isn't even a clean filesystem abstraction.
 
